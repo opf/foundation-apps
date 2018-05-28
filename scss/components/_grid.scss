@@ -221,7 +221,6 @@ $block-grid-max-size: 6 !default;
   height: 100vh;
   position: relative;
   overflow: hidden;
-  backface-visibility: hidden;
 
   @include grid-size($size);
   @include grid-orient($orientation);
